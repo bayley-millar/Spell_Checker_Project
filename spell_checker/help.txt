@@ -1,0 +1,28 @@
+
+
+
+For each of the below commands an action is performed in the program. 
+Enter the commands into the command line 
+    
+    -r      When entered this causes the hash table to use a red-black 
+            tree as its container type. 
+    
+    -s 'table-size'     'table-size' will be the size of the hash table.          
+    
+    
+    -p      This will print out the hash table to standard screen 
+            output (stdout). 
+    
+    
+    -i      Will return information to standard error output (stderr) about
+            the time it took to fill and search the hash table. As well
+            as how many unknown words were found. 
+            Ex:
+                    Fill time : 1.390000
+                    Search time : 0.450000
+                    Unknown words : 8690
+            
+    
+    -h      Will print a help message to standard error output (stderr) with 
+            information required to use the program effectively. 
+            
